@@ -88,7 +88,7 @@ class Solution{
 // console.log(numArray);
 
 
-var array = [1];
+var array = [2];
 // for (var i = 0; i < array.length; i++) {
 //     var target = array[i];
 //     for (var j = (i - 1); j >= 0 && (array[j] > target); j--) {
@@ -110,6 +110,7 @@ var array = [1];
 array.sort(function(a, b){return a - b});
 
 if ((array[0]===1) && (array.length ===1)){console.log("2")}
+if ((array[0]===2) && (array.length ===1)){console.log("1")}
 for (let i=array.length-1; i>0; i--){
 
     if (array[i-1]!==(array[i]-1)){
