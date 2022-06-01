@@ -47,26 +47,22 @@ class Solution{
     }
 }
 
-// let arr = [1, 3, 2, 5, 4, 8, 7, 6, 10];
-// console.log(arr);
+let arr = [10,9,8,7,4,5,2];
+console.log(arr);
 
-// for (let i=0; i<arr.length; i++){
-//     console.log("value of i:", [i])
-//     for (let j=(i+1); j<arr.length; j++){
-//         console.log("value of j:", [j])
+for (let i=0; i<arr.length; i++){
+    for (let j=(i+1); j<arr.length; j++){
+        if(arr[i]>arr[j]){
+            arr.push(arr[i])
+            arr.splice(i,1);
+            i--
+            continue
+    }
+}
+}
+console.log(arr);
 
-//         if(arr[i]>arr[j]){
-//             console.log("if")
-//             arr.push(arr[i])
-//             arr.splice(i,1);
-//             console.log(arr);
-//             arr.length -=1;
-//             break
-//         }
-//     }
-// }
 
-// console.log(arr);
 // for (let i=0; i<arr.length; i++){
 //     if (arr[i+1]!==(arr[i]+1)){
 //         console.log("ln:",(arr[i]+1))
