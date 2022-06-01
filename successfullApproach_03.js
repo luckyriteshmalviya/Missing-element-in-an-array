@@ -1,4 +1,9 @@
-
+/**
+ * Sum up all the individual elements present in the array by using for loop.
+ * Now by using the given length of array Calculate the expected sum of array.
+ * For this calculation use a mathematical expression => n*(n+1)/2.
+ * Now calculte the difference of these two sum. 
+ */
 
 let array = [1]
 let sum = 0;
